@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4863942E17DD82E6008E0304 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4863942D17DD82E6008E0304 /* Cocoa.framework */; };
+		4863943817DD82E6008E0304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4863943617DD82E6008E0304 /* InfoPlist.strings */; };
+		4863943A17DD82E6008E0304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863943917DD82E6008E0304 /* main.m */; };
+		4863943E17DD82E6008E0304 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4863943C17DD82E6008E0304 /* Credits.rtf */; };
+		4863944117DD82E6008E0304 /* TPDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863944017DD82E6008E0304 /* TPDAppDelegate.m */; };
+		4863944417DD82E6008E0304 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4863944217DD82E6008E0304 /* MainMenu.xib */; };
+		4863944617DD82E6008E0304 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4863944517DD82E6008E0304 /* Images.xcassets */; };
+		4863944D17DD82E6008E0304 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4863944C17DD82E6008E0304 /* XCTest.framework */; };
+		4863944E17DD82E6008E0304 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4863942D17DD82E6008E0304 /* Cocoa.framework */; };
+		4863945617DD82E6008E0304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4863945417DD82E6008E0304 /* InfoPlist.strings */; };
+		4863945817DD82E6008E0304 /* TransformProcessDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863945717DD82E6008E0304 /* TransformProcessDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4863944F17DD82E6008E0304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4863942217DD82E6008E0304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4863942917DD82E6008E0304;
+			remoteInfo = TransformProcessDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4863942A17DD82E6008E0304 /* TransformProcessDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformProcessDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4863942D17DD82E6008E0304 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4863943017DD82E6008E0304 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4863943117DD82E6008E0304 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4863943217DD82E6008E0304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4863943517DD82E6008E0304 /* TransformProcessDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransformProcessDemo-Info.plist"; sourceTree = "<group>"; };
+		4863943717DD82E6008E0304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4863943917DD82E6008E0304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4863943B17DD82E6008E0304 /* TransformProcessDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransformProcessDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4863943D17DD82E6008E0304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4863943F17DD82E6008E0304 /* TPDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPDAppDelegate.h; sourceTree = "<group>"; };
+		4863944017DD82E6008E0304 /* TPDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPDAppDelegate.m; sourceTree = "<group>"; };
+		4863944317DD82E6008E0304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4863944517DD82E6008E0304 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4863944B17DD82E6008E0304 /* TransformProcessDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransformProcessDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4863944C17DD82E6008E0304 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4863945317DD82E6008E0304 /* TransformProcessDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransformProcessDemoTests-Info.plist"; sourceTree = "<group>"; };
+		4863945517DD82E6008E0304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4863945717DD82E6008E0304 /* TransformProcessDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformProcessDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4863942717DD82E6008E0304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863942E17DD82E6008E0304 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863944817DD82E6008E0304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863944E17DD82E6008E0304 /* Cocoa.framework in Frameworks */,
+				4863944D17DD82E6008E0304 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4863942117DD82E6008E0304 = {
+			isa = PBXGroup;
+			children = (
+				4863943317DD82E6008E0304 /* TransformProcessDemo */,
+				4863945117DD82E6008E0304 /* TransformProcessDemoTests */,
+				4863942C17DD82E6008E0304 /* Frameworks */,
+				4863942B17DD82E6008E0304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4863942B17DD82E6008E0304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4863942A17DD82E6008E0304 /* TransformProcessDemo.app */,
+				4863944B17DD82E6008E0304 /* TransformProcessDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4863942C17DD82E6008E0304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4863942D17DD82E6008E0304 /* Cocoa.framework */,
+				4863944C17DD82E6008E0304 /* XCTest.framework */,
+				4863942F17DD82E6008E0304 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4863942F17DD82E6008E0304 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4863943017DD82E6008E0304 /* AppKit.framework */,
+				4863943117DD82E6008E0304 /* CoreData.framework */,
+				4863943217DD82E6008E0304 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4863943317DD82E6008E0304 /* TransformProcessDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4863943F17DD82E6008E0304 /* TPDAppDelegate.h */,
+				4863944017DD82E6008E0304 /* TPDAppDelegate.m */,
+				4863944217DD82E6008E0304 /* MainMenu.xib */,
+				4863944517DD82E6008E0304 /* Images.xcassets */,
+				4863943417DD82E6008E0304 /* Supporting Files */,
+			);
+			path = TransformProcessDemo;
+			sourceTree = "<group>";
+		};
+		4863943417DD82E6008E0304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4863943517DD82E6008E0304 /* TransformProcessDemo-Info.plist */,
+				4863943617DD82E6008E0304 /* InfoPlist.strings */,
+				4863943917DD82E6008E0304 /* main.m */,
+				4863943B17DD82E6008E0304 /* TransformProcessDemo-Prefix.pch */,
+				4863943C17DD82E6008E0304 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4863945117DD82E6008E0304 /* TransformProcessDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4863945717DD82E6008E0304 /* TransformProcessDemoTests.m */,
+				4863945217DD82E6008E0304 /* Supporting Files */,
+			);
+			path = TransformProcessDemoTests;
+			sourceTree = "<group>";
+		};
+		4863945217DD82E6008E0304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4863945317DD82E6008E0304 /* TransformProcessDemoTests-Info.plist */,
+				4863945417DD82E6008E0304 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4863942917DD82E6008E0304 /* TransformProcessDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4863945B17DD82E6008E0304 /* Build configuration list for PBXNativeTarget "TransformProcessDemo" */;
+			buildPhases = (
+				4863942617DD82E6008E0304 /* Sources */,
+				4863942717DD82E6008E0304 /* Frameworks */,
+				4863942817DD82E6008E0304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransformProcessDemo;
+			productName = TransformProcessDemo;
+			productReference = 4863942A17DD82E6008E0304 /* TransformProcessDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4863944A17DD82E6008E0304 /* TransformProcessDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4863945E17DD82E6008E0304 /* Build configuration list for PBXNativeTarget "TransformProcessDemoTests" */;
+			buildPhases = (
+				4863944717DD82E6008E0304 /* Sources */,
+				4863944817DD82E6008E0304 /* Frameworks */,
+				4863944917DD82E6008E0304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4863945017DD82E6008E0304 /* PBXTargetDependency */,
+			);
+			name = TransformProcessDemoTests;
+			productName = TransformProcessDemoTests;
+			productReference = 4863944B17DD82E6008E0304 /* TransformProcessDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4863942217DD82E6008E0304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TPD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jerry;
+				TargetAttributes = {
+					4863944A17DD82E6008E0304 = {
+						TestTargetID = 4863942917DD82E6008E0304;
+					};
+				};
+			};
+			buildConfigurationList = 4863942517DD82E6008E0304 /* Build configuration list for PBXProject "TransformProcessDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4863942117DD82E6008E0304;
+			productRefGroup = 4863942B17DD82E6008E0304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4863942917DD82E6008E0304 /* TransformProcessDemo */,
+				4863944A17DD82E6008E0304 /* TransformProcessDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4863942817DD82E6008E0304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863943817DD82E6008E0304 /* InfoPlist.strings in Resources */,
+				4863944617DD82E6008E0304 /* Images.xcassets in Resources */,
+				4863943E17DD82E6008E0304 /* Credits.rtf in Resources */,
+				4863944417DD82E6008E0304 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863944917DD82E6008E0304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863945617DD82E6008E0304 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4863942617DD82E6008E0304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863943A17DD82E6008E0304 /* main.m in Sources */,
+				4863944117DD82E6008E0304 /* TPDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863944717DD82E6008E0304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863945817DD82E6008E0304 /* TransformProcessDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4863945017DD82E6008E0304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4863942917DD82E6008E0304 /* TransformProcessDemo */;
+			targetProxy = 4863944F17DD82E6008E0304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4863943617DD82E6008E0304 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4863943717DD82E6008E0304 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4863943C17DD82E6008E0304 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4863943D17DD82E6008E0304 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4863944217DD82E6008E0304 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4863944317DD82E6008E0304 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4863945417DD82E6008E0304 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4863945517DD82E6008E0304 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4863945917DD82E6008E0304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4863945A17DD82E6008E0304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4863945C17DD82E6008E0304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransformProcessDemo/TransformProcessDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransformProcessDemo/TransformProcessDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4863945D17DD82E6008E0304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransformProcessDemo/TransformProcessDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransformProcessDemo/TransformProcessDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4863945F17DD82E6008E0304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransformProcessDemo.app/Contents/MacOS/TransformProcessDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransformProcessDemo/TransformProcessDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TransformProcessDemoTests/TransformProcessDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4863946017DD82E6008E0304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransformProcessDemo.app/Contents/MacOS/TransformProcessDemo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransformProcessDemo/TransformProcessDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransformProcessDemoTests/TransformProcessDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4863942517DD82E6008E0304 /* Build configuration list for PBXProject "TransformProcessDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863945917DD82E6008E0304 /* Debug */,
+				4863945A17DD82E6008E0304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4863945B17DD82E6008E0304 /* Build configuration list for PBXNativeTarget "TransformProcessDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863945C17DD82E6008E0304 /* Debug */,
+				4863945D17DD82E6008E0304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4863945E17DD82E6008E0304 /* Build configuration list for PBXNativeTarget "TransformProcessDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863945F17DD82E6008E0304 /* Debug */,
+				4863946017DD82E6008E0304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4863942217DD82E6008E0304 /* Project object */;
+}
