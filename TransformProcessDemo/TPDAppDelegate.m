@@ -1,18 +1,27 @@
-//
-//  TPDAppDelegate.m
-//  TransformProcessDemo
-//
-//  Created by Jerry on 13/09/08.
-//  Copyright (c) 2013 Jerry. All rights reserved.
-//
-
 #import "TPDAppDelegate.h"
+#import "SSYProcessTyper.h"
 
 @implementation TPDAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"transformInAdfl"]) {
+        /*SSYDBL*/ NSLog(@"Transforming in %s", __PRETTY_FUNCTION__) ;
+        [SSYProcessTyper transformToForeground:nil] ;
+    }
 }
+
+- (id)init {
+    self = [super init] ;
+    if (self) {
+        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"transformInInit"]) {
+            /*SSYDBL*/ NSLog(@"Transforming in %s", __PRETTY_FUNCTION__) ;
+            [SSYProcessTyper transformToForeground:nil] ;
+        }
+    }
+    return self ;
+}
+
+
 
 @end
